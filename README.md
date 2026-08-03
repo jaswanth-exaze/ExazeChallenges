@@ -1,39 +1,114 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages). 
+# Exaze Dart Challenges
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages). 
--->
+A collection of coding challenges solved in **Dart**, along with comprehensive **unit test cases** to verify correctness and improve code quality.
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+## Overview
+
+This repository contains solutions to programming challenges completed as part of the **Exaze** challenge series. Each challenge focuses on problem-solving, clean coding practices, and test-driven development using Dart.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Dart implementations of coding challenges
+- Well-structured and readable solutions
+- Unit tests for each challenge
+- Edge case coverage
+- Easy-to-understand project structure
 
-## Getting started
+## Project Structure
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
 
-## Usage
+````
+.
+├── lib/
+│   └── src/
+│       ├── challenge_1.dart
+│       ├── challenge_2.dart
+│       ├── ...
+│
+├── test/
+│   ├── challenge_1_test.dart
+│   ├── challenge_2_test.dart
+│   ├── ...
+│
+├── pubspec.yaml
+└── README.md
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+````
 
-```dart
-const like = 'sample';
+## Getting Started
+
+### Prerequisites
+
+- Dart SDK (latest stable version)
+
+Verify your installation:
+
+```bash
+dart --version
+````
+
+### Install Dependencies
+
+```bash
+dart pub get
 ```
 
-## Additional information
+## Running the Tests
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+Run all test cases:
+
+```bash
+dart test
+```
+
+Run a specific test file:
+
+```bash
+dart test test/<test_file_name>.dart
+```
+
+Run tests with expanded output:
+
+```bash
+dart test -r expanded
+```
+
+## Challenges
+
+This repository includes various algorithmic and logical programming challenges, such as:
+
+* String manipulation
+* Arrays and Lists
+* Maps and Hash Tables
+* Stack and Queue problems
+* Parsing and Validation
+* Data aggregation
+* Pattern-based problems
+* General coding interview questions
+
+Additional challenges will be added over time.
+
+## Tech Stack
+
+* **Language:** Dart
+* **Testing Framework:** package:test
+
+## Learning Goals
+
+* Improve problem-solving skills
+* Write clean and maintainable Dart code
+* Practice Test-Driven Development (TDD)
+* Handle edge cases effectively
+* Build confidence for technical interviews
+
+## Contributing
+
+Suggestions and improvements are welcome. Feel free to fork the repository, add enhancements, and submit a pull request.
+
+## License
+
+This repository is intended for learning and practice purposes.
+
+```
+```
